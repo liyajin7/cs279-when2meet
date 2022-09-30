@@ -1,0 +1,20 @@
+.column {
+    float: left;
+    width: 25%;
+}
+
+#leftOverlay {
+    display: none;
+}
+
+#leftOverlay-unavail {
+    white-space: pre;
+    display: none;
+    text-align: center;
+}
+
+#leftOverlay-avail {
+    white-space: pre;
+    display: none;
+    text-align: center;
+}
