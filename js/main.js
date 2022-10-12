@@ -32,11 +32,11 @@ for (let i = 0; i < 4; i++) {
 
 // Dates data
 let dates = [
-  { day: "Mon", x: 51, y: 15 },
-  { day: "Tues", x: 101, y: 15 },
-  { day: "Wed", x: 151, y: 15 },
-  { day: "Thurs", x: 201, y: 15 },
-  { day: "Fri", x: 251, y: 15 },
+  { day: "Mon", x: 60, y: 15 },
+  { day: "Tue", x: 111, y: 15 },
+  { day: "Wed", x: 158, y: 15 },
+  { day: "Thu", x: 210, y: 15 },
+  { day: "Fri", x: 265, y: 15 },
 ];
 
 // Hard-coded database for seeing others' availability (in this case, only Elena's heh)
@@ -63,8 +63,8 @@ let rightCells = [
     },
     {
       id: 3,
-      numAvailable: 1,
-      pplAvailable: ["Elena"],
+      numAvailable: 0,
+      pplAvailable: [],
       x: 151,
       y: 20,
       i: 0,
@@ -72,8 +72,8 @@ let rightCells = [
     },
     {
       id: 4,
-      numAvailable: 0,
-      pplAvailable: [],
+      numAvailable: 1,
+      pplAvailable: ["Elena"],
       x: 201,
       y: 20,
       i: 0,
@@ -111,8 +111,8 @@ let rightCells = [
     },
     {
       id: 8,
-      numAvailable: 1,
-      pplAvailable: ["Elena"],
+      numAvailable: 0,
+      pplAvailable: [],
       x: 151,
       y: 30,
       i: 1,
@@ -177,8 +177,8 @@ let rightCells = [
     },
     {
       id: 15,
-      numAvailable: 1,
-      pplAvailable: ["Elena"],
+      numAvailable: 0,
+      pplAvailable: [],
       x: 251,
       y: 40,
       i: 2,
@@ -189,8 +189,8 @@ let rightCells = [
   [
     {
       id: 16,
-      numAvailable: 0,
-      pplAvailable: [],
+      numAvailable: 1,
+      pplAvailable: ["Elena"],
       x: 51,
       y: 50,
       i: 3,
@@ -207,8 +207,8 @@ let rightCells = [
     },
     {
       id: 18,
-      numAvailable: 1,
-      pplAvailable: ["Elena"],
+      numAvailable: 0,
+      pplAvailable: [],
       x: 151,
       y: 50,
       i: 3,
@@ -225,8 +225,8 @@ let rightCells = [
     },
     {
       id: 20,
-      numAvailable: 1,
-      pplAvailable: ["Elena"],
+      numAvailable: 0,
+      pplAvailable: [],
       x: 251,
       y: 50,
       i: 3,
